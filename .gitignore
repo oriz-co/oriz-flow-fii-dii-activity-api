@@ -5,3 +5,8 @@ node_modules/
 dist/
 *.log
 .DS_Store
+
+# env (synced via sops + age)
+.env.local
+.env.*.local
+.sops-age-key.txt
